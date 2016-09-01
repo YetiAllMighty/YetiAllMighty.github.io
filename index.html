@@ -11,6 +11,8 @@
     <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
     <link rel="shortcut icon" href="favicon.ico">  
+    <link href="./node_modules/lightbox2/dist/css/lightbox2.css" rel="stylesheet">
+
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
@@ -24,6 +26,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="assets/plugins/lightbox2-master/src/css/lightbox.css">
 </head> 
 
 <body>
@@ -49,11 +52,11 @@
                 <h2 class="container-block-title">Education</h2>
                 <div class="item">
                     <h4 class="degree">ASc in Web Software Development</h4>
-                    <h5 class="meta">Madison Area Technical College</h5>
+                    <h5 class="meta">Madison College</h5>
                     <div class="time">Current - Expected Graduation: 2017</div>
                 </div><!--//item-->
                 <div class="item">
-                    <h4 class="degree">Cert in Front End Web Development</h4>
+                    <h4 class="degree">Certification in Front End Web Development</h4>
                     <h5 class="meta"><a href="http://ywebca.org/">yWeb Career Academy</a></h5>
                     <div class="time">2016</div>
                 </div><!--//item-->
@@ -76,7 +79,10 @@
                     <li>Go Karts</li>
                 </ul>
             </div><!--//interests-->
-            
+            <div class="container-block">
+                <a href="assets/images/Untitled.png" data-lightbox="stuff"><img src="assets/images/Untitled.png" alt="trees" ></a>
+                <a href="assets/images/brainIcon.png" data-lightbox="stuff"><img src="assets/images/brainIcon.png" alt="brain"></a>
+            </div>
         </div><!--//sidebar-wrapper-->
         
         <div class="main-wrapper">
@@ -89,7 +95,7 @@
             </section><!--//section-->
             <br />
             <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experience</h2>
                 
                 <div class="item">
                     <div class="meta">
@@ -138,18 +144,18 @@
                     <p>Heres a few of my projects that I've worked on and built from the ground up!</p>
                 </div><!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a href="#">Daily PR's</a></span> - <span class="project-tagline"> A not so creatively named project that posts a stale pull-request tasklist to a user set on a daily basis to drive team efficiency . This thing uses Hubot scripting, some Node HTTP requests and some Slack integration too! It even hijacks a couple of Slack's premade variables for funsies.</span>
+                    <span class="project-title"><a href="https://github.com/YetiAllMighty/Daily-Github-Worklist">Daily PR's</a></span> - <span class="project-tagline"> A not so creatively named project that posts a stale pull-request tasklist to a user set on a daily basis to drive team efficiency . This thing uses Hubot scripting, some Node HTTP requests and some Slack integration too! It even hijacks a couple of Slack's premade variables for funsies.</span>
                     
                 </div><!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="#" target="_blank">Asteroids</a></span> - 
+                    <span class="project-title"><a href="https://drive.google.com/open?id=0B764_G2Dd-ARR2E4RnlZWm5YV2s" target="_blank">Asteroids</a></span> - 
                     <span class="project-tagline">A silly little remake of the classic Asteroids remake using <a href="http://www.yoyogames.com/gamemaker">Game Maker Studio</a> and the awesome GML scripting language!</span>
                 </div><!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="#" target="_blank">Mad Libs</a></span> - <span class="project-tagline">The Mad Libs project is the first project from MATC using a good mixture of my knowledge using PHP and MySql. Basically this thing took in a couple of words and spit out a response!</span>
+                    <span class="project-title"><a href="#" target="_blank">Mad Libs</a></span> - <span class="project-tagline">The Mad Libs project is the first project from Madison Colleg using a good mixture of my knowledge using PHP and MySql. Basically this thing took in a couple of words and spit out a response!</span>
                 </div><!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="#" target="_blank">Animation</a></span> - <span class="project-tagline">I actually do a lot of 2D animation with Pixel Art. This all involves color theory, mental perception and blah blah blah. Made some cool stuff is all that matters! Ha.</span>
+                    <span class="project-title"><a href="assets/images/swordsman.gif" data-lightbox="animation">2D Animation</a></span> - <span class="project-tagline">I actually do a lot of 2D animation and design with Pixel Art. This all involves color theory, mental perception and blah blah blah. Made some cool stuff is all that matters! Ha.</span>
                 </div><!--//item-->
                 <!--<div class="item">-->
                 <!--    <span class="project-title"><a href="#" target="_blank">Delta</a></span> - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>-->
@@ -234,7 +240,8 @@
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/plugins/lightbox2-master/src/js/lightbox.js"></script>
 </body>
 </html> 
 
