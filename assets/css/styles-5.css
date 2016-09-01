@@ -291,5 +291,9 @@ p {
     top: 1px;
   }
 }
+
+.lb1 {
+  display: none;
+}
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
